@@ -12,7 +12,6 @@ router.post('/', async (req, res) => {
       res.status(500).json({ message: 'Failed to add quote' });
     }
   });
-  //this code have error i will fix in a bit
 
 router.get('/', async (req, res) => {
   try {
